@@ -1,0 +1,58 @@
+body{
+    padding-bottom: 100px;
+    position: relative;
+    padding: 0px;
+}
+.form-group{
+    padding-top: auto;
+}
+footer{
+    text-align: center;
+    background-color: #353E48;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    padding: 30px;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+}
+.btn{
+    padding-top: 1000px;
+}
+.row {
+    margin: 0;
+}
+
+#search-container{
+    background-color: cornflowerblue;
+    background-size: cover;
+    background-position:right;
+    height: 200px;
+    padding: 50px;
+    text-align: center;
+}
+#search-container h1{
+    color: white;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+#search-container form{
+    width: 50% ;
+    margin: 0 auto;
+}
+
+#events-container{
+    padding: 50px;
+
+}
+#cards-container{
+    display: flex;
+}
+#events-container .card{
+    flex: 1 1 0;
+    max-width: 25%;
+    border-radius: 10px;
+    padding: 0;
+    margin: 5px;
+
+}
